@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<!-- CSS Code Can be Found in MyWebpage.css -->
+<link rel="stylesheet" type="text/css" href="MyWebpage.css"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" href="icon.png" type="image/gif" sizes="16x16">
+<style>
+body {
+    background-color: #f5ffaf;
+	background-size: cover;
+	margin: 0;
+}
+.upper-top{
+	color: white;
+	font-family: sans-serif;
+	font-size: 80pt;
+	margin: 100px;
+}
+.lower-top{
+	color:white;
+	font-family: sans-serif
+	font-size: 20pt;
+	border-bottom: 1px solid white;
+}
+.top{
+	background-image: url("932271.jpg");
+	overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+	overflow:hidden;
+	background-size: 100%;
+	background-position: center-right;
+	width: 1344px;
+	height: 657px;
+}
+
+.header {
+    overflow: hidden;
+	top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+	color:white;
+    font-family: Courier;
+}
+.navbar {
+    opacity: .8;
+    overflow: hidden;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+	top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+	font-size: 20pt;
+}
+
+.navbar a {
+    float: left;
+
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background-color: red;
+}
+
+.button a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px 100px;
+	margin: 0px;
+    text-decoration: none;
+}
+.button a:hover, .button:hover{
+	background-color: white;
+	color:black;
+}
+
+
+
+
+.footer {
+	font-family: Courier;
+	border: 1px solid black;
+	opacity: .8;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.info,.school {
+	font-family: Courier;
+	font-size: 15pt;
+	margin: 100px;
+	color: white;
+	border-bottom: 1px solid white;
+	padding: 15px;
+    background: black;
+    background-clip: border-box; 
+}
+
+.infod{
+	font-family: sans-serif;
+	color:gray;
+	font-size: 30pt;
+	
+}	
+
+.ul{
+	font-family: Courier;
+	font-size: 14pt;
+	
+}
+.space{
+	padding: 20px;
+}
+
+.p1{
+	color:black;
+	font-family: Courier;
+	font-size: 14pt;
+}
+.p2{
+	color:black;
+	font-family: Courier;
+	font-size: 14pt;
+}
+
+.test{
+	color:white;
+	font-family: sans-serif;
+	font-size: 30pt;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+	
+}
+.border{
+	margin: 100px;
+	border-bottom: 1px solid white;
+}
+
+.button {
+	opacity: .8;
+    background-color: black;
+    font-family: sans-serif;
+	font-size: 20pt;
+	border-radius: 30px;
+	margin: 400px;
+}
+
+.elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.element__item{
+	color: white;
+	font-family: sans-serif;
+	margin: 100px;
+	font-size: 15pt;
+	border-bottom: 2px solid black;
+	padding: 15px;
+    background: black;
+    background-clip: border-box; 
+
+}
+
+.semi_element{
+	color: white;
+	font-family: Courier;
+	font-size: 12pt;
+}
+</style>
+
+
+
+<title>Marc Webs</title>
+</head>
+<body>
+<div align="center" class="header">
+<img src="Gg.jpg" alt="Header-Top">
+
+</div>
+
+
+<div class="top">
+<div class="upper-top">
+<h1 class="upper-top"><strong> <center>ABOUT ME</center> </strong> </h1>
+</div>
+<div class="lower-top">
+<p> <center><i>"Information About Me"</i></center> </p>
+</div>
+</div>
+
+<div class="navbar">
+  <a href="MyWebpage.html">Home</a><
+  <a href="AboutMe.html">About Me</a>
+  <a href="MyResume.html">My Resume</a>
+  <a href="Projects.html"> Projects</a>
+  <a href="UcHymn.html">The UC Hymn</a>
+  <a href="AboutSchool.html">School and Colleges</a>
+
+  
+</div>
+<div class="space">
+</div>
+
+
+<div class="info">
+<h1 class="infod"><strong>INFORMATION  :</strong></h1>
+<ul class="ul">
+	<li>Full Name: Marc Christian C. Patacsil</li>
+	<li>Age : 18</li>
+	<li>Address : Lot 4B Blk. 8 Ph.3 Bakakeng Eagle Crest</li>
+	<li>Current Course: BSCS</li>
+	<li>Current School: University of the Cordilleras</li>
+	<li>Email: marc.c.cpatacsil@gmail.com</li>
+	<li>Contact#: 09294962530</li>
+
+</ul>
+</div>
+
+<div class="space">
+</div>
+
+<div class="school" align="right">
+
+<h1 class="infod"><strong>MY SCHOOL : </strong></h1>
+<p class="p1"><blockquote cite="http://www.uc-bcf.edu.ph/">The University of the Cordilleras is a private university in Baguio City, Philippines. The school is in the heart of the city, near Our Lady of Atonement Church (the Baguio Cathedral)
+, hotels, restaurants, and shopping malls. It has Autonomous status and is an ISO certified university, formerly known as Baguio Colleges Foundation (BCF)</blockquote></p>
+
+</div>
+
+
+<div class="w3-container">
+  <h2 class="infod"><strong>MY CURRENT SCHEDULE : (1st Year)</strong></h2>
+  <p class="p2">This button contains the time and schedule of all of my subjects.</p>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Click to Open Schedule</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <table>
+  <tr>
+    <th>Subject : </th>
+    <th>Time :</th>
+    <th>Day :</th>
+  </tr>
+  <tr>
+    <td>CC1</td>
+    <td>7:30 - 9:30 a.m.</td>
+    <td>T F</td>
+  </tr>
+  <tr>
+    <td>CC2</td>
+    <td>9:30 - 11:30 a.m.</td>
+    <td>T F</td>
+  </tr>
+  <tr>
+    <td>FIL 100</td>
+    <td>1:30 - 3:30 p.m.</td>
+    <td>T F</td>
+  </tr>
+  <tr>
+    <td>NSTP</td>
+    <td>3:30 - 5:30 p.m.</td>
+    <td>T F</td>
+  </tr>
+  <tr>
+    <td>PATH 100</td>
+    <td>7:30 - 9:00 a.m.</td>
+    <td>W SAT</td>
+  </tr>
+  <tr>
+    <td>MATH 100</td>
+    <td>9:30 - 11:30 a.m.</td>
+    <td>W SAT</td>
+  </tr>
+   <tr>
+    <td>ENG 100</td>
+    <td>1:30 - 3:30 a.m.</td>
+    <td>W SAT</td>
+  </tr>
+   <tr>
+    <td>CC7</td>
+    <td>1:30 - 3:30 p.m.</td>
+    <td>W SAT</td>
+  </tr>
+   <tr>
+    <td>CC1(Lecture)</td>
+    <td>7:30 - 10:30 a.m.</td>
+    <td>TH</td>
+  </tr>
+   <tr>
+    <td>CC2(Lecture)</td>
+    <td>11:30 - 2:30 p.m.</td>
+    <td>TH</td>
+  </tr>
+</table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="border">
+<br>
+</div>
+
+<div class="space">
+</div>
+<h1><center><strong>MY FAMILY</h1></center></strong>
+<div class="elements">
+
+  <div class="element__item" align="left"><h1> FATHER </h1>
+  <div class="semi_element"><p>My Fathers Name is Crismar Patacsil,Age : 47, His job is being a teacher.</p>
+  </div>
+  <br>
+  </div>
+  <div class="element__item"><h1>MOTHER </h1>
+  <div class="semi_element"><p>My Mothers Name is Melba Patacsil,Age : 50 , Her job is being a teacher.</p>
+
+  </div>
+   <br>
+  </div>
+  <div class="element__item"><h1>BROTHER</h1>
+  <div class="semi_element"><p>My Brothers Name is Mel Chris Ian Patacsil, Age : 23 yrs old, He is currently a student taking a board exam.</p>
+
+  </div>
+   <br>
+  </div>
+  <div class="element__item"><h1>SISTER </h1>
+  <div class="semi_element"><p>My Sisters Name is Kris Harmony Mae Patacsil, Age : 14, She is currently a student of City High.</p>
+
+  </div>
+   <br>
+  </div>
+
+  
+</div>
+
+
+
+<div class="footer">
+
+<a href="https://www.facebook.com/migscpatacsil">
+  <img src="fb.jpg" alt="Facebook" height="42" width="42" title="@Marc Patacsil">
+  </a>
+  
+  <a href="https://deadluking.tumblr.com/">
+  <img src="tblr.jpg" alt="Tumblr" height="42" width="42" title="@Deadluking">
+  </a>
+  
+  <a href="https://www.reddit.com/user/Deadluking">
+  <img src="red.jpg" alt="Reddit" height="42" width="42" title="@Deadluking">
+  </a>
+  
+  <img src="Discord.jpg" alt="Discord" height="42" width="42" title="@DLKing">
+  
+  <div class="lefted" align="center">
+Like Share and Follow! @MarcPatacsil
+</div>
+</div>
+
+
+</body>
+</html>

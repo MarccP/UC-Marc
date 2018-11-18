@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<!-- CSS Code Can be Found in MyWebpage.css -->
+<link rel="stylesheet" type="text/css" href="MyWebpage.css"> 
+<link rel="icon" href="icon.png" type="image/gif" sizes="16x16">
+<style>
+body {
+    background-color: #f5ffaf;
+	background-size: cover;
+	margin: 0;
+}
+
+.navbar {
+    opacity: .8;
+    overflow: hidden;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+	top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+	font-size: 20pt;
+}
+
+.navbar a {
+    float: left;
+
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background-color: red;
+}
+
+
+
+.button a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px 100px;
+	margin: 0px;
+    text-decoration: none;
+}
+
+.button a:hover, .button:hover{
+	background-color: white;
+	color:black;
+}
+
+
+.upper-top{
+	color: white;
+	font-family: sans-serif;
+	font-size: 60pt;
+	margin: 100px;
+}
+.lower-top{
+	color:white;
+	font-family: sans-serif
+	font-size: 20pt;
+	border-bottom: 1px solid white;
+}
+.top{
+	background-image: url("932271.jpg");
+	overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+	overflow:hidden;
+	background-size: 100%;
+	background-position: center-right;
+	width: 1344px;
+	height: 657px;
+}
+.top2{
+	background-image: url("ucc.jpg");
+	overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+	overflow:hidden;
+	background-size: 100%;
+	background-position: center-right;
+	width: 1344px;
+	height: 390px;
+}
+.top3{
+	background-image: url("CITCSlab.jpg");
+	overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+	overflow:hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 1280px;
+	height: 700px;
+	border: 5px solid black;
+}
+
+.header {
+    overflow: hidden;
+	top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+	color:white;
+    font-family: Courier;
+}
+
+
+
+
+.footer {
+	font-family: Courier;
+	border: 1px solid black;
+	opacity: .8;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.space{
+	padding: 20px;
+}
+.space2{
+	padding: 50px;
+	border-bottom: 1px solid white;
+}
+
+
+
+.boxed{
+	font-family: sans-serif;
+	font-size: 18px;
+	color: black;
+	background: white;
+    background-clip: border-box; 
+	border: 2px solid black;
+}
+
+.boxed2{
+	font-family: sans-serif;
+	font-size: 30px;
+	color: black;
+	background: white;
+    background-clip: border-box; 
+	border: 2px solid black;
+}
+
+.title{
+	font-size: 50px;
+	color: green;
+}
+
+
+
+}
+</style>
+
+
+
+<title>Marc Webs</title>
+</head>
+<body>
+<div align="center" class="header">
+<img src="Gg.jpg" alt="Header-Top">
+
+</div>
+
+
+<div class="top">
+<div class="upper-top">
+<h1> <center>SCHOOL AND COLLEGES</center> </h1>
+</div>
+<div class="lower-top">
+<p> <center><i>"Information about the school and the CITCS Department"</i></center> </p>
+</div>
+</div>
+<div class="navbar">
+  <a href="MyWebpage.html">Home</a><
+  <a href="AboutMe.html">About Me</a>
+  <a href="MyResume.html">My Resume</a>
+  <a href="Projects.html"> Projects</a>
+  <a href="UcHymn.html">The UC Hymn</a>
+  <a href="AboutSchool.html">School and Colleges</a>
+  <a href="Blogs.html"> Blog Events </a>
+  
+</div>
+
+<div class="top2"><br>
+</div>
+
+
+<div class="boxed">
+<h1 class="title"><strong> SHORT HISTORY OF UC : </strong></h1>
+<p>Baguio Colleges, as the University of the Cordilleras was earlier known, 
+pioneered in tertiary education in the mountain highlands of the Cordillera region amidst 
+devastation in and around Baguio City after the Second World War.
+
+</p>
+<p>Through the years, the University of the Cordilleras has grown bigger through the offering of additional courses 
+and increasing student enrollment. 
+It continues to grow even better with time, 
+as evidenced by exemplary performance in various fields of discipline, 
+with its graduates shining in national licensure examinations, 
+and its alumni doing well in private employment, in the practice of their trade and profession, and in public service.
+</p>
+</div>
+
+<div class="space"><br><br><br><br></div>
+
+<div class="top3"><br>
+</div>
+
+<div class="space"><br></div>
+<div class="boxed2">
+<center><h1> THE CITCS COLLEGE DEPARTMENT </h1>
+<img src="citcs.jpeg" alt="CITCS Pic">
+</center>
+</div>
+
+<div class="space2"><br></div>
+
+<div class="boxed">
+<h2 class = "title"> Short History :</h1>
+<p>
+In 1986, the University of the Cordilleras, 
+then known as the Baguio Colleges Foundation, 
+became the first institution in Baguio City to offer a four-year course in Computer Science. 
+Under the umbrella of the Arts and Sciences, this new division started with barely 100 students, 
+4 faculty members, and one course offering: Bachelor of Science in Information and Computer Science.
+</p>
+
+<h2 class = "title"> What the CITCS Strive to : </h2>
+<ul>
+  <li>Upgrade periodically the Institution's course offerings focusing on innovative tools, current trends, and industry requirements;</li>
+  <li>Prepare the student to apply his/her acquired academic skills to his/her related profession with commitment and dedication;</li>
+  <li>Excel in the use of Information Technology (IT) facilities, their prototypes and development, including evaluations and tests; and</li>
+  <li>Become the Institution's number one provider of Information Technology tools to promote people productivity at lower costs.</li>
+</ul>
+
+<h2 class = "title"> The Mission :</h2>
+<p>The CITCS mission is to provide competent instruction geared towards the development of responsible 
+Information Technology (IT) professionals equipped with skills and strong moral values, 
+thus, becoming the preferred source of services and manpower .
+</p>
+
+
+<h2 class = "title"> The Facilities : </h2>
+<p>
+The UC-CITCS is recognized for being a leader in educational innovations. More than 713 computers are housed within two campuses . 
+All computers are powered by Core I5, and Core I3 processors, and utilize LCD monitors.
+</p>
+</div>
+
+<div class="space2"> <br> <br> </div>
+
+
+
+
+
+
+<div class="footer">
+
+<a href="https://www.facebook.com/migscpatacsil">
+  <img src="fb.jpg" alt="Facebook" height="42" width="42" title="@Marc Patacsil">
+  </a>
+  
+  <a href="https://deadluking.tumblr.com/">
+  <img src="tblr.jpg" alt="Tumblr" height="42" width="42" title="@Deadluking">
+  </a>
+  
+  <a href="https://www.reddit.com/user/Deadluking">
+  <img src="red.jpg" alt="Reddit" height="42" width="42" title="@Deadluking">
+  </a>
+  
+  <img src="Discord.jpg" alt="Discord" height="42" width="42" title="@DLKing">
+  
+  <div class="lefted" align="center">
+Like Share and Follow! @MarcPatacsil
+</div>
+</div>
+
+
+</body>
+</html>

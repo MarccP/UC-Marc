@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="icon" href="icon.png" type="image/gif" sizes="16x16">
+<style>
+body {
+    background-color: #f5ffaf;
+	background-size: cover;
+	margin: 0;
+}
+.navbar {
+    opacity: .8;
+    overflow: hidden;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+	top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+	font-size: 20pt;
+}
+
+.navbar a {
+    float: left;
+
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background-color: red;
+}
+
+.top{
+	background-image: url("932271.jpg");
+	background-size: cover;
+	overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+	overflow:hidden;
+	width: 1344px;
+	height: 657px;
+}
+.upper-top{
+	color: white;
+	font-family: sans-serif;
+	font-size: 50pt;
+}
+.lower-top{
+	color:white;
+	font-family: sans-serif
+	font-size: 20pt;
+	border-bottom: 1px solid white;
+}
+
+
+.button a {
+    float: left;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    padding: 10px 100px;
+	margin: 0px;
+    text-decoration: none;
+}
+.header {
+    overflow: hidden;
+	top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+	color:white;
+    font-family: Courier;
+}
+
+
+
+.button a:hover, .button:hover{
+	background-color: white;
+	color:black;
+}
+
+.elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.element__item{
+	color: black;
+	font-family: sans-serif;
+	margin: 100px;
+	font-size: 15pt;
+	border-bottom: 2px solid black;
+
+
+}
+.semi_element{
+	color: white;
+	font-family: Courier;
+	font-size: 12pt;
+	padding: 15px;
+    background: black;
+    background-clip: border-box; 
+}
+.footer {
+	font-family: Courier;
+	border: 1px solid black;
+	opacity: .8;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.w3{
+	margin: 20px;
+}
+
+.pw3{
+	font-family: Courier;
+	font-size: 14pt;
+	color:white;
+	padding: 15px;
+    background: black;
+    background-clip: border-box; 
+
+}
+.w3title{
+	color: black;
+	font-family: sans-serif;
+	font-size: 25pt;
+	
+}
+
+.space{
+	padding: 40px;
+	margin: 80px;
+	border-bottom: 1px solid white;
+
+}
+
+.quote{
+	color:white;
+	font-size: 20pt;
+	padding-bottom: 20px;
+	margin: 80px;
+	border-bottom: 1px solid white;
+	padding: 15px;
+    background: black;
+    background-clip: border-box; 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+}
+
+
+
+</style>
+
+
+
+<title>Marc Webs</title>
+</head>
+<body>
+
+<div align="center" class="header">
+<img src="Gg.jpg" alt="Header-Top">
+
+</div>
+
+<div id="bg_top">
+<div class="top">
+<div class="upper-top">
+<h1> <center>WELCOME TO MARCWEBS</center> </h1>
+</div>
+<div class="lower-top">
+<p> <center><i>"Made by Marc Patacsil"</i></center> </p>
+</div>
+</div>
+</div>
+
+<div class="navbar">
+  <a href="MyWebpage.html">Home</a><
+  <a href="AboutMe.html">About Me</a>
+  <a href="MyResume.html">My Resume</a>
+  <a href="Projects.html"> Projects</a>
+  <a href="UcHymn.html">The UC Hymn</a>
+  <a href="AboutSchool.html">School and Colleges</a>
+
+  
+</div>
+<div class="space">
+</div>
+
+<blockquote cite="https://awakenthegreatnesswithin.com/24-inspirational-tai-lopez-quotes-on-success/"><p class="quote" align="center"><i>“The more you learn, The more you earn.” <br><br>
+-Tai Lopez </i></blockquote> </p>
+
+<div class="elements">
+
+  <div class="element__item" align="left"><h1> ABOUT ME </h1>
+  <div class="semi_element"><p>In this website, we can find more information about me.
+  To find or to know more about me, just click the <b>"About Me"</b> Button on the Navigation Bar
+  Or Just simply click the button below.</p>
+  </div>
+  <div class="button">
+  <a href="AboutMe.html">About me</a>
+  </div>
+  <br>
+  </div>
+  <div class="element__item"><h1>MY RESUME </h1>
+  <div class="semi_element"><p>In this website, we can find my resume.
+  It shows a preview of my resume and it is also a downloadeable file. To find the file Click the <b>"Resume"</b> Button on the Navigation Bar
+  Or Just simply click the button below.</p>
+  </div>
+  <div class="button">
+  <a href="MyResume.html">Resume</a>
+  </div>
+   <br>
+  </div>
+  <div class="element__item" align="right"><h1> MY PROJECTS </h1>
+  <div class="semi_element"><p>In this website, we can find my projects.
+	The Project shows my requirements on my CC1 and CC2 Projects and contains a Github site. To find click the <b>"Projects"</b> Button on the Navigation bar
+ Or Just simply click the button below.	</p>
+  </div>
+  <div class="button">
+  <a href="Projects.html">Projects</a>
+  </div>
+  </div>
+</div>
+
+<div class="wc3">
+<img src='w3.jpg' height="225" width="300" style='float: left;'/>
+ <div class="w3"><h1 class="w3title"> <strong>THANKS TO w3school ...</strong> </h1>
+ 
+ <p class="pw3"> Thanks to w3school for the codes and helped me develop my knowledge in coding mostly in HTML and CSS </p>
+ </div>
+</div>
+
+<div class="space">
+	<br>
+</div>
+
+<div class="footer">
+
+<a href="https://www.facebook.com/migscpatacsil">
+  <img src="fb.jpg" alt="Facebook" height="42" width="42" title="@Marc Patacsil">
+  </a>
+  
+  <a href="https://deadluking.tumblr.com/">
+  <img src="tblr.jpg" alt="Tumblr" height="42" width="42" title="@Deadluking">
+  </a>
+  
+  <a href="https://www.reddit.com/user/Deadluking">
+  <img src="red.jpg" alt="Reddit" height="42" width="42" title="@Deadluking">
+  </a>
+  
+  <img src="Discord.jpg" alt="Discord" height="42" width="42" title="@DLKing">
+  
+  <div class="lefted" align="center">
+Like Share and Follow! @MarcPatacsil
+</div>
+
+</div>
+
+
+
+
+</body>
+</html>

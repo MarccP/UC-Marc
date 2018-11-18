@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<!-- CSS Code Can be Found in MyWebpage.css -->
+<link rel="stylesheet" type="text/css" href="MyWebpage.css"> 
+<link rel="icon" href="icon.png" type="image/gif" sizes="16x16">
+<style>
+body {
+    background-color: #f5ffaf;
+	background-size: cover;
+	margin: 0;
+}
+
+.navbar {
+    opacity: .8;
+    overflow: hidden;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+	top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+	font-size: 20pt;
+}
+
+.navbar a {
+    float: left;
+
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background-color: red;
+}
+
+
+
+.button a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px 100px;
+	margin: 0px;
+    text-decoration: none;
+}
+
+.button a:hover, .button:hover{
+	background-color: white;
+	color:black;
+}
+
+
+.upper-top{
+	color: white;
+	font-family: sans-serif;
+	font-size: 60pt;
+	margin: 100px;
+}
+.lower-top{
+	color:white;
+	font-family: sans-serif
+	font-size: 20pt;
+	border-bottom: 1px solid white;
+}
+.top{
+	background-image: url("932271.jpg");
+	overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+	overflow:hidden;
+	background-size: 100%;
+	background-position: center-right;
+	width: 1344px;
+	height: 657px;
+}
+
+.header {
+    overflow: hidden;
+	top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+	color:white;
+    font-family: Courier;
+}
+
+
+
+
+.footer {
+	font-family: Courier;
+	border: 1px solid black;
+	opacity: .8;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.space{
+	padding: 20px;
+}
+.space2{
+	padding: 50px;
+	border-bottom: 1px solid white;
+}
+
+.elements{
+
+}
+.video{
+	color: black;
+	font-size: 60pt;
+	font-family: sans-serif;
+	border: 2px solid black;
+}
+.hymn_title{
+	color: black;
+	font-size: 60pt;
+	font-family: sans-serif;
+	border: 2px solid black;
+}	
+
+.uc_hymn{
+	color: black;
+	font-size: 16pt;
+	font-family: arial;
+	background: MediumSeaGreen;
+    background-clip: border-box; 
+	border: 2px solid black;
+}
+
+
+
+
+}
+</style>
+
+
+
+<title>Marc Webs</title>
+</head>
+<body>
+<div align="center" class="header">
+<img src="Gg.jpg" alt="Header-Top">
+
+</div>
+
+
+<div class="top">
+<div class="upper-top">
+<h1> <center>The UC Hymn</center> </h1>
+</div>
+<div class="lower-top">
+<p> <center><i>"Contains the Lyric and an Audio of the UC Hymn"</i></center> </p>
+</div>
+</div>
+
+<div class="navbar">
+  <a href="MyWebpage.html">Home</a><
+  <a href="AboutMe.html">About Me</a>
+  <a href="MyResume.html">My Resume</a>
+  <a href="Projects.html"> Projects</a>
+  <a href="UcHymn.html">The UC Hymn</a>
+  <a href="AboutSchool.html">School and Colleges</a>
+
+  
+</div>
+<div class="space">
+</div>
+</div>
+
+<div class="elements">
+<center>
+<h1 class="hymn_title">THE UC HYMN</h1>
+<p class="uc_hymn"><i>Hold High the torch;<br>
+Let its blaze reach all corners,<br>
+Throughout the world<br>
+to lighten the course of darkness.<br>
+Keep wise and well not forgetting fidelity,<br>
+To our Alma Mater, wherever we may be<br>
+Keep our hearts together with glowing<br>
+love and loyalty.<br>
+Hold tight the shield,<br><br>
+And defend our dear country<br>
+We must not yield<br>
+To threats made upon our safety.<br>
+This is the pledge<br>
+We shall keep till our dying day<br>
+To our Alma Mater, wherever we may be<br>
+Keep our hearts together<br>
+With glowing love and loyalty.<br></i></p>
+<audio controls>
+  <source src="uchymn.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</center>
+
+
+<div class="space"> <br><br><br><br> </div>
+
+</div>
+<center>
+<h1 class="video"> UC HYMN (FROM YOUTUBE) </h1>
+<br>
+<video width="400" controls>
+  <source src="UcVideo.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<p>
+Video of UC Hymn From :
+<a href="https://www.youtube.com/watch?v=GgFSR2NQGwI" target="_blank">The Uc Hymn</a>.
+</p>
+</center>
+
+<div class="space"> <br><br><br><br> </div>
+
+
+
+
+
+
+<div class="footer">
+
+<a href="https://www.facebook.com/migscpatacsil">
+  <img src="fb.jpg" alt="Facebook" height="42" width="42" title="@Marc Patacsil">
+  </a>
+  
+  <a href="https://deadluking.tumblr.com/">
+  <img src="tblr.jpg" alt="Tumblr" height="42" width="42" title="@Deadluking">
+  </a>
+  
+  <a href="https://www.reddit.com/user/Deadluking">
+  <img src="red.jpg" alt="Reddit" height="42" width="42" title="@Deadluking">
+  </a>
+  
+  <img src="Discord.jpg" alt="Discord" height="42" width="42" title="@DLKing">
+  
+  <div class="lefted" align="center">
+Like Share and Follow! @MarcPatacsil
+</div>
+</div>
+
+
+</body>
+</html>
